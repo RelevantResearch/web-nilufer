@@ -1,0 +1,29 @@
+#-------------------------------
+# Site Settings
+title: Nilufer Akalin
+description:
+
+
+#-------------------------------
+# Navigation Settings
+menu_settings:
+  menu_items:
+    - title: 'HOME'
+      url: '/'
+    - title: 'ABOUT'
+      url: '/about'
+    - title: 'Research'
+      url: '/research'
+    - title: 'Teaching'
+      url: '/teaching'
+    - title: 'Publications'
+      url: '/publications'
+    - title: 'Films'
+      url: '/films'
+
+    
+
+
+#-------------------------------
+# Google Analytics
+google-analytics:  # Add your GA Tracking Id

@@ -1,0 +1,19 @@
+details:
+  name: "Nilufer Akalin, Ph.D."
+  title: "Assistant Professor"
+  university: "Michigan State University"
+
+profile-section:
+  image: "/assets/img/profile.jpg"
+  description: "I am a sociologist at Yale University and I received my Ph.D. in Sociology from Binghamton University in 2021. My work explores the integration of the immigration enforcement regime in the current healthcare settings in the U.S. and what this integration implies for documented Haitian immigrants and their well-being. I examine how health inequalities are produced at the intersection of immigration status and race by tracing the sites of care and the interactions between documented immigrants and healthcare providers. At Lyman Briggs, I am one of the distinguished teacher-scholar postdoctoral fellows. I taught a Senior Seminar in Fall 2022, focusing on fostering critical thinking and interdisciplinary engagement in science and society."
+
+footer:
+  year: 2024
+  name: "Nilufer Akalin"
+  website_url: "https://relevant-research.com/" 
+  org_name: "Relevant Research"
+  social_media:
+    - platform: "Facebook"
+      url: "https://www.facebook.com/nilufer.akalin.1"      
+    - platform: "LinkedIn"
+      url: "https://www.linkedin.com/in/nilufer-akalin/" 

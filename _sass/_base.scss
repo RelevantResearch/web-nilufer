@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background: #eee;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-page {
+    width: 1172px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+}
+
+.main-page{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    color: #282828;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+}
+
+.container{
+    max-width: 992px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 60px;
+    color: #333;
+    font-family: "Raleway", sans-serif;
+    font-weight: normal;
+}
+
+#header p {
+    margin: 5px 0;
+    font-size: 20px;
+    color: #777;
+    font-family: "Raleway", sans-serif;
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+.row {
+    padding: 25px;
+}
+
+#Static-home {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 80px 0 60px;
+}
+
+
+#Static-home .summary {
+    flex: 1;
+}
+
+#Static-home .summary h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#Static-home .summary p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #282828;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 350;
+}
+
+#footer {
+    border-top: 1px solid #000;
+    background: #222;
+    color: #7B7B7B;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#footer a {
+    color: orange;
+    margin: 0 5px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#footer a:hover {
+    color: #fff;
+}
+
+.profile-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Space between the image and text */
+}
+
+.profile-image img {
+    width: 651px;
+    height: 100%;
+}
+
+.summary {
+    flex: 1; /* Takes up the remaining space */
+    max-width: 600px; /* Optional: Set a max-width for the text */
+}
+
+/* General nav bar styles */
+.nav-bar {
+    width: 100%;
+    background-color: white; /* Optional: Add a background color */
+    display: flex;
+    justify-content: center;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    
+}
+
+.nav-bar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; /* Ensures even spacing across the nav bar */
+    width: 100%; /* Makes sure it stretches fully */
+}
+
+.nav-bar nav ul li {
+    flex-grow: 1; /* Makes each box evenly spaced */
+    text-align: center;
+}
+
+.nav-bar nav ul li a {
+    text-transform: uppercase;
+    color: inherit;
+    font-size: 14px;
+    border: 1px solid transparent;
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+/* Hover state */
+.nav-bar nav ul li a:hover {
+    border-color: blue;
+    color: blue;
+}
+
+/* Active state */
+.nav-bar nav ul li a.active {
+    border-color: blue;
+    color: blue;
+}
+
+
+
+.menu {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+}
+
+.line {
+    fill: none;
+    stroke: black;
+    stroke-width: 6;
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+        stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line1 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+}
+
+.line2 {
+    stroke-dasharray: 60 60;
+    stroke-width: 6;
+}
+
+.line3 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+}
+
+.opened .line1 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+}
+
+.opened .line2 {
+    stroke-dasharray: 1 60;
+    stroke-dashoffset: -30;
+    stroke-width: 6;
+}
+
+.opened .line3 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+}
+
+/* Hide the nav bar by default on smaller screens */
+.nav-bar {
+    display: none;
+    position: absolute;
+    top: 100px;
+    /* Adjust as needed */
+    left: 0;
+    width: 100%;
+    background: #fff;
+    /* Background color */
+    text-align: center;
+    z-index: 10;
+}
+
+/* Display nav bar when the hamburger is toggled */
+.nav-bar.open {
+    display: block;
+}
+
+/* Show the hamburger menu only on small screens */
+.hamburger {
+    display: block;
+}
+
+/* On larger screens, show the nav bar and hide the hamburger menu */
+@media (min-width: 768px) {
+    .nav-bar {
+        display: block;
+        position: static;
+        background: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .profile-section {
+        flex-direction: column;
+    }
+
+    .profile-image img {
+        width: 100%;
+    }
+
+    .main-page {
+        width: 100%;
+    }
+
+    #Static-home {
+        padding: 0;
+    }
+
+    svg {
+        width: 45px;
+    }
+
+    .nav-bar nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-bar.open {
+        position: relative;
+        transform: translateY(0)
+    }
+
+    .nav-bar {
+        top: 0px !important;
+    }
+
+    #header {
+        padding-top: 0px;
+    }
+    #header h1{
+        font-size: 40px;
+    }
+}
