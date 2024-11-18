@@ -22,9 +22,16 @@
     <nav>
         <ul>
             {% for item in site.data.settings.menu_settings.menu_items %}
-            <li><a href="{{ site.url }}{{ item.url }}">{{ item.title }}</a></li>
+            <li>
+                <a 
+                    href="{{ site.url }}{{ item.url }}" 
+                    class="{% if page.url == item.url %}active{% endif %}">
+                    {{ item.title }}
+                </a>
+            </li>
             {% endfor %}
         </ul>
+        
     </nav>
 </div>
 
