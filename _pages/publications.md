@@ -3,7 +3,7 @@ layout: page
 description:
 ---
 
-Below is a select list of publications focusing on peer-reviewed articles, books, and book chapters. My full CV ([available here, updated in fall 2024](/assets/Nilufer Akalin_CV.docx)) includes a more thorough list of my published and presented work.
+My full CV ([available here, updated in fall 2024](/assets/Nilufer Akalin_CV.docx)) includes a more thorough list of my published and presented work.
 
 ## Peer-Reviewed Publications
 
