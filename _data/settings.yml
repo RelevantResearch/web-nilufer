@@ -18,8 +18,8 @@ menu_settings:
       url: '/teaching'
     - title: 'Publications'
       url: '/publications'
-    - title: 'Films'
-      url: '/films'
+    - title: 'Media and coverage'
+      url: '/media-and-coverage'
 
     
 
