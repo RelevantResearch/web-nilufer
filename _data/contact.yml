@@ -1,0 +1,12 @@
+address:
+  line_1: "Holmes Hall"
+  line_2: "919 E. Shaw Lane, East Lansing, MI 48825"
+  map_link: "https://www.google.com/maps?q=919+E.+Shaw+Lane,+East+Lansing,+MI+48825"
+
+phone:
+  number: "+0098 9893 5647"
+  tel_link: "tel:+009898935647"
+
+email:
+  address: "akalin@msu.edu"
+  mailto_link: "mailto:akalin@msu.edu"

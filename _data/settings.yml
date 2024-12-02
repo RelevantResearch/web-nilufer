@@ -20,6 +20,8 @@ menu_settings:
       url: '/publications'
     - title: 'Media and coverage'
       url: '/media-and-coverage'
+    - title: 'Contact'
+      url: '/contact'
 
     
 

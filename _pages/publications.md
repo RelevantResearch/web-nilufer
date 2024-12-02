@@ -25,9 +25,7 @@ Below is a select list of publications focusing on peer-reviewed articles, books
 - Bolcakan, A., Akalin, N., Semercioglu, C. (2012). [Yunan Halkini Kurtaricilarindan Kurtaralim.](http://bianet.org/kurdi/dunya/136483-yunan-halkini-kurtaricilarindan-kurtaralim ) *Bianet.*
 
 ## Digital Humanities Project
-[Just as it Sounds](https://creators.spotify.com/pod/show/just-as-it-sounds/episodes/On-Writing-With-Kristen-Roupenian-ev5t7l) Podcast on academics' everyday life experiences (September 2020 - Present)
-- Co-creator with B. Sati and A. Schultz
-- Explores the lived experiences of academics
+- Akalin, N., Sati, B., Schultz, A. (2020-present). [Just as it Sounds.](https://justasitsounds.squarespace.com/)
 
 ## Conference Publications
 
